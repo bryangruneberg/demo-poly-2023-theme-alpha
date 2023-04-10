@@ -1,0 +1,22 @@
+uuid: e4d395ac-6a0f-4f24-a866-00a294e862fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - webinar
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: webinar_powered
+theme: webinar
+region: header
+weight: 5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

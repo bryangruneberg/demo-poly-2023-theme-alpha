@@ -1,0 +1,22 @@
+uuid: 486c7e4c-816e-4207-a939-68abda47726e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - webinar
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: webinar_help
+theme: webinar
+region: header
+weight: 3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

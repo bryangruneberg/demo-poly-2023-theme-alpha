@@ -1,0 +1,20 @@
+uuid: 250d0d6e-82c5-4da8-9b31-7e307873f39b
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_module
+  theme:
+    - webinar
+id: aioblock
+theme: webinar
+region: header
+weight: -7
+provider: null
+plugin: aio_block
+settings:
+  id: aio_block
+  label: 'Aio block'
+  label_display: '0'
+  provider: custom_module
+visibility: {  }
